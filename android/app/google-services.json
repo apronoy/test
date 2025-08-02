@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "633437805839",
+    "project_id": "authentucate-3ba7a",
+    "storage_bucket": "authentucate-3ba7a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633437805839:android:d5ac73738fe9bf014a727a",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPJZqe8vmN-h9RqEiidoJptgSlfqsi198"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633437805839:android:6d97823d26a9dfcf4a727a",
+        "android_client_info": {
+          "package_name": "com.example.prectice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPJZqe8vmN-h9RqEiidoJptgSlfqsi198"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
