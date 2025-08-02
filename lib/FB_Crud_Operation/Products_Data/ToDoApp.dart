@@ -1,6 +1,7 @@
 import 'package:firebase/FB_Crud_Operation/Products_Data/Data_controler.dart';
 import 'package:firebase/FB_Crud_Operation/model/model.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class ToDoApp extends StatefulWidget {
   const ToDoApp({super.key});
@@ -17,7 +18,8 @@ class _ToDoAppState extends State<ToDoApp> {
     final name = TextEditingController();
     final price = TextEditingController();
 
-    final controler = DataControler.instance;
+    // get put initialized .. 
+    final controler = Get.put(DataControler());
     return Scaffold(
       appBar: AppBar(
         title: const Text(' Task Manager'),
